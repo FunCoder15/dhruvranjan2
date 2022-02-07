@@ -14,7 +14,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.36);
-    height: 11vh;
+    /* height: 11vh; */
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -28,11 +28,6 @@ header:hover{
 
 #mainlogo{
     width: 5vw;
-}
-
-.mainlogo{
-    position: relative;
-    left: 4vw;
 }
 
 #Instagram{
@@ -53,19 +48,19 @@ header:hover{
 }
 .youtube{
     position: relative;
-    left: 49vw;
+    left: 40vw;
 }
 .instagram{
     position: relative;
-    right: 47.5vw;
+    right: 40vw;
 }
 #home{
     text-decoration: none;
     color: white;
     position: relative;
-    right: 16vw;
     border-radius: 32px;
     padding: 0.3rem;
+    right: 5vw;
 }
 #home:hover{
     background-color: white;
@@ -77,9 +72,9 @@ header:hover{
     text-decoration: none;
     color: white;
     position: relative;
-    left: 1vw;
     border-radius: 32px;
     padding: 0.3rem;
+    left: 5vw;
 }
 #about:hover{
     background-color: white;
@@ -91,7 +86,7 @@ header:hover{
 /* --------main---------- */
 main{
     position: relative;
-    top: 12vh;
+    top: 20vh;
     padding: 0px 1vw;
 }
 iframe{
